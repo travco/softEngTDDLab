@@ -12,9 +12,9 @@ test('util.getValueFromWageAndExp', function(t) {
   t.ok(util.getValueFromWageAndExp(31, 1) > util.getValueFromWageAndExp(30, 1), 'factors in wage');
 
   if (util.getValueFromWageAndExp(30, 1) > util.getValueFromWageAndExp(30, 0)) {
-  	t.pass('factors in experiance');
+  	t.pass('factors in experience');
   } else {
-  	t.fail('does not factor in experiance');
+  	t.fail('does not factor in experience');
   }
 
   t.equal(util.getValueFromWageAndExp(34, 1.3), false, 
@@ -123,9 +123,9 @@ test('recruiter function', function(t) {
 
 	inputArr = collArr.slice();
 
-	inputArr[0].experiance = 0;
+	inputArr[0].experience = 0;
 	inputArr[0].degree = "human resources management";
-	inputArr[3].experiance = 0;
+	inputArr[3].experience = 0;
 	inputArr[3].degree = "human resources management";
 
 

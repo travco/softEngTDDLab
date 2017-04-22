@@ -1,7 +1,7 @@
-// getValueFromWageAndExp( wage, full years of experiance );
+// getValueFromWageAndExp( wage, full years of experience );
 function getValueFromWageAndExp(wage, fullYearsExp) {
 	if (fullYearsExp !== Math.floor(fullYearsExp)) {
-		console.log("getValueFromWageAndExp was given a partial year of experiance")
+		console.log("getValueFromWageAndExp was given a partial year of experience")
 		return false;
 	}
 	var modYears;

@@ -21,7 +21,7 @@ function recruiter(internArr) {
 	var iname = internArr[index].name;
 	var idegr = internArr[index].degree;
 	var igpa = internArr[index].gpa;
-	var iexp = internArr[index].experiance;
+	var iexp = internArr[index].experience;
 	var iwage, ivalue, ibracket, imetric;
 
 	// Yep, you can use strings as an "index" (technically it's a property) in JavaScript
@@ -29,7 +29,7 @@ function recruiter(internArr) {
 	iwage = degreeSWage[idegr];
 
 	// You should use these functions at some point
-	ivalue = util.getValueFromWageAndExp( /*wage, full years of experiance*/ );
+	ivalue = util.getValueFromWageAndExp( /*wage, full years of experience*/ );
 	ibracket = bracketFromGPA ( /*decimal GPA*/ );
 
 	// Hmm... this doesn't seem to follow the spec - fix it
